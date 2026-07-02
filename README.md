@@ -30,7 +30,9 @@
 
 ## Dependencies
 
-> TODO
+* ruby-devel
+* rubygem-jekyll
+* rubygem-bundler
 
 ## Generating the page
 
@@ -42,4 +44,4 @@ bundle exec jekyll serve
 
 ## License
 
-This project is licensed under MIT license.
+This project is licensed under MIT License.
