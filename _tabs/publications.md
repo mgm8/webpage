@@ -11,4 +11,4 @@ The most up-to-date information about my publications, citations, and research a
 - **Google Scholar:** <https://scholar.google.com.br/citations?user=o6F_s-QAAAAJ>
 - **Web of Science:** <https://www.webofscience.com/wos/author/record/ABD-3058-2020>
 - **ORCID:** <https://orcid.org/0000-0003-4889-6021>
-- **Plataforma Lattes:** <http://lattes.cnpq.br/1130025640623034>
+- **Plataforma Lattes:** <https://lattes.cnpq.br/1130025640623034>
