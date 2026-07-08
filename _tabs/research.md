@@ -35,6 +35,8 @@ Federal University of Santa Catarina (UFSC), 2016
 
 Prof. Joceli Mayer
 
+---
+
 ## Master's Research
 
 ### Development and Implementation of an Algorithm for Centroid Extraction in Star Trackers for CubeSats Using FPGAs
@@ -66,6 +68,8 @@ Federal University of Santa Catarina (UFSC), 2019
 
 Prof. Eduardo Augusto Bezerra
 
+---
+
 ## Doctoral Research
 
 ### Towards the Conception of GNSS Networks Based on Small Satellites
@@ -74,13 +78,13 @@ My doctoral research investigated the feasibility of deploying Global Navigation
 
 The research encompasses the complete conception of a LEO-based GNSS network, including constellation design, orbital analysis, coverage simulations, communication system evaluation, payload architecture, satellite subsystem definition, and mission engineering. Particular attention was given to the integration of emerging technologies such as Chip-Scale Atomic Clocks (CSACs) for precise onboard timing and Long Range–Frequency Hopping Spread Spectrum (LR-FHSS) modulation for the transmission of navigation signals.
 
+![GNSS Heatmap]({{"/assets/img/research/gnss-heatmap.png" | relative_url}})
+{: .w-75 .mx-auto .d-block }
+
 As a proof of concept, the thesis proposes the design of a dedicated GNSS payload for CubeSat platforms, including its electronic architecture, clock reference subsystem, radio module, radiation protection strategies, thermal design, and power budget. The work also evaluates the required satellite platform, considering attitude control, propulsion, communication links, energy generation, and mission constraints required to support the payload in orbit.
 
-![GNSS Processing Board]({{"/assets/img/research/gnss-processing-pcb.png" | relative_url}})
-{: .w-50 .mx-auto .d-block }
-
-![GNSS Clock Board]({{"/assets/img/research/gnss-clock-pcb.png" | relative_url}})
-{: .w-50 .mx-auto .d-block }
+![GNSS Boards]({{"/assets/img/research/gnss-pcbs-small.png" | relative_url}})
+{: .w-100 .mx-auto .d-block }
 
 Beyond the technical implementation, the research presents extensive simulations of constellation coverage, orbital lifetime, radiation environment, power generation, communication link budgets, and deployment costs. The proposed architecture demonstrates the technical feasibility of future low-cost navigation infrastructures based on small satellites and discusses additional applications such as atmospheric radio occultation and Earth observation.
 
