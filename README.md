@@ -26,9 +26,11 @@
 
 ## Overview
 
-> TODO
+This is my personal webpage developed using the [Jekyll tool](https://jekyllrb.com/) with the [Chirpy theme](https://chirpy.cotes.page/).
 
 ## Dependencies
+
+The following dependencies are required for bring up the webpage:
 
 * ruby-devel
 * rubygem-jekyll
@@ -36,7 +38,7 @@
 
 ## Generating the page
 
-To generate the page, just execute the following command:
+To generate and visualize the page locally, just execute the following command:
 
 ```
 bundle exec jekyll serve
