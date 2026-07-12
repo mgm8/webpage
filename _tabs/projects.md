@@ -19,14 +19,14 @@ The following pages present an overview of some of the most representative proje
 
 {% include project-card.html
 title="FloripaSat-1"
-description="A 2U CubeSat mission developed at SpaceLab/UFSC focused on validating new technologies for future satellite missions."
+description="A 1U CubeSat mission developed by SpaceLab at UFSC to demonstrate an open-source CubeSat platform and validate key technologies for future Brazilian nanosatellite missions."
 image="/assets/img/projects/floripasat1.png"
 url="/projects/floripasat1/"
 %}
 
 {% include project-card.html
 title="FloripaSat-2"
-description="A 2U CubeSat mission developed at SpaceLab/UFSC focused on validating new technologies for future satellite missions."
+description="A small constellation of two CubeSats for validating the FloripaSat-2 platform and testing LoRa communication between two satellites in orbit."
 image="/assets/img/projects/floripasat2.png"
 url="/projects/floripasat2/"
 %}
@@ -39,15 +39,15 @@ url="/projects/golds/"
 %}
 
 {% include project-card.html
-title="Catarina Constellation"
-description="A 2U CubeSat mission developed at SpaceLab/UFSC focused on validating new technologies for future satellite missions."
-image="/assets/img/projects/golds-ufsc.png"
+title="Catarina-A1/A3"
+description="A Brazilian nanosatellite constellation program led by the Brazilian Space Agency to provide environmental data collection services."
+image="/assets/img/projects/catarina.png"
 url="/projects/catarina/"
 %}
 
 {% include project-card.html
 title="SpaceLab's Ground Station"
-description="A 2U CubeSat mission developed at SpaceLab/UFSC focused on validating new technologies for future satellite missions."
+description="An open-source SDR-based ground station developed to support satellite tracking, telemetry, telecommand, and mission operations."
 image="/assets/img/projects/grs.png"
 url="/projects/grs/"
 %}
@@ -56,15 +56,15 @@ url="/projects/grs/"
 
 {% include project-card.html
 title="VCUB1"
-description="A 2U CubeSat mission developed at SpaceLab/UFSC focused on validating new technologies for future satellite missions."
-image="/assets/img/projects/golds-ufsc.png"
+description="A 6U CubeSat technology demonstration mission developed by the Brazilian space industry to validate critical national space technologies."
+image="/assets/img/projects/vcub1.png"
 url="projects/vcub1/"
 %}
 
 {% include project-card.html
-title="Catarina Constellation"
-description="A 2U CubeSat mission developed at SpaceLab/UFSC focused on validating new technologies for future satellite missions."
-image="/assets/img/projects/golds-ufsc.png"
+title="Catarina-A2"
+description="A 3U CubeSat mission designed to collect environmental data from remote platforms while demonstrating SDR technology for space-based communications."
+image="/assets/img/projects/catarina-a2.png"
 url="projects/catarina/"
 %}
 
@@ -73,7 +73,7 @@ url="projects/catarina/"
 {% include project-card.html
 title="PyNGHam"
 description="A Python library that implements the NGHam protocol, based on the library written in C by Jon Petter Skagmo (LA3JPA)."
-image="/assets/img/projects/pymodulation.png"
+image="/assets/img/projects/pyngham.png"
 url="https://github.com/mgm8/pyngham"
 %}
 
