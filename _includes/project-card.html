@@ -1,0 +1,41 @@
+<article class="card-wrapper card mb-3">
+
+  <div class="post-preview row g-0 flex-md-row-reverse">
+
+    {% assign card_body_col = "12" %}
+
+    {% if include.image %}
+      <div class="col-md-5">
+        <a href="{{ include.url | relative_url }}">
+          <img
+            src="{{ include.image | relative_url }}"
+            alt="{{ include.title }}"
+            loading="lazy">
+        </a>
+      </div>
+
+      {% assign card_body_col = "7" %}
+    {% endif %}
+
+    <div class="col-md-{{ card_body_col }}">
+      <div class="card-body d-flex flex-column">
+
+        <h2 class="card-title project-card-title my-2 mt-md-0">
+          <a href="{{ include.url | relative_url }}"
+             class="text-decoration-none text-reset stretched-link">
+            {{ include.title }}
+          </a>
+        </h2>
+
+        <div class="card-text content mt-0">
+          <p>
+            {{ include.description }}
+          </p>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+</article>
