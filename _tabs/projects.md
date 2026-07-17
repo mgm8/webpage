@@ -46,6 +46,13 @@ url="/projects/catarina/"
 %}
 
 {% include project-card.html
+title="SLCam"
+description="An open source camera payload for nanossatellite missions with the objective of taking pictures of the Earth from space."
+image="/assets/img/projects/slcam.png"
+url="/projects/slcam/"
+%}
+
+{% include project-card.html
 title="SpaceLab's Ground Station"
 description="An open-source SDR-based ground station developed to support satellite tracking, telemetry, telecommand, and mission operations."
 image="/assets/img/projects/grs.png"
