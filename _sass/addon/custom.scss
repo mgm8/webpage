@@ -28,3 +28,30 @@
 .project-card-description {
   color: var(--text-color);
 }
+
+/* Apply consistent typography and image alignment to Markdown-rendered content. */
+.content p,
+.content li {
+  text-align: justify;
+}
+
+.content p > .img-link {
+  display: flex;
+  width: fit-content;
+  max-width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.content p > img {
+  display: block;
+  max-width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.content p > .img-link img,
+.content p > img {
+  max-width: 100%;
+  height: auto;
+}
