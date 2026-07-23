@@ -19,13 +19,10 @@
       <div class="card-body d-flex flex-column">
 
         <h2 class="card-title project-card-title my-2 mt-md-0">
-          <a href="{{ include.url | relative_url }}"
-             class="text-decoration-none text-reset">
-            {{ include.title }}
-          </a>
+          {{ include.title }}
         </h2>
 
-        <div class="card-text content mt-0">
+        <div class="card-text content mt-0 project-card-description">
           <p>
             {{ include.description }}
           </p>
@@ -35,5 +32,9 @@
     </div>
 
   </div>
+
+  <a class="project-card-link"
+     href="{{ include.url | relative_url }}"
+     aria-label="View project: {{ include.title }}"></a>
 
 </article>

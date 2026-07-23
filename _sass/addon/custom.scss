@@ -7,9 +7,24 @@
  * Keep the complete project card clickable with a local production-safe
  * equivalent that is anchored to the card itself.
  */
-.project-card-title a::after {
-  content: "";
+.content .project-card-link,
+.content .project-card-link:hover,
+.content .project-card-link:focus {
+  display: block;
   position: absolute;
   inset: 0;
   z-index: 1;
+  color: inherit;
+  border-bottom: 0 !important;
+  text-decoration: none;
+}
+
+/* The overlay is a sibling of `.post-preview`, so restore Chirpy's hover state. */
+.card-wrapper:hover .post-preview::before,
+.card-wrapper:focus-within .post-preview::before {
+  opacity: 0.3;
+}
+
+.project-card-description {
+  color: var(--text-color);
 }
