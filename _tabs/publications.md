@@ -8,7 +8,7 @@ My research focuses on embedded systems, space systems, software-defined radio, 
 
 The most up-to-date information about my publications, citations, and research activities is available through the following platforms:
 
-<div class="row row-cols-2 row-cols-md-4 g-3 square-card-grid">
+<div class="row square-card-grid">
 
   <div class="col">
     <div class="square-card">
@@ -48,6 +48,21 @@ The most up-to-date information about my publications, citations, and research a
   /* Container for the whole grid */
   .square-card-grid {
     margin-top: 1rem;
+    --bs-gutter-x: 1rem;
+    --bs-gutter-y: 1rem;
+  }
+
+  /* The production stylesheet does not include Bootstrap's `row-cols-*`
+   * utilities, so define the responsive columns locally. */
+  .square-card-grid > .col {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+
+  @media (min-width: 768px) {
+    .square-card-grid > .col {
+      width: 25%;
+    }
   }
 
   /* Each card stays square, with a separate caption below its logo. */
