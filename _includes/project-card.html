@@ -6,12 +6,10 @@
 
     {% if include.image %}
       <div class="col-md-5">
-        <a href="{{ include.url | relative_url }}">
-          <img
-            src="{{ include.image | relative_url }}"
-            alt="{{ include.title }}"
-            loading="lazy">
-        </a>
+        <img
+          src="{{ include.image | relative_url }}"
+          alt="{{ include.title }}"
+          loading="lazy">
       </div>
 
       {% assign card_body_col = "7" %}
@@ -22,7 +20,7 @@
 
         <h2 class="card-title project-card-title my-2 mt-md-0">
           <a href="{{ include.url | relative_url }}"
-             class="text-decoration-none text-reset stretched-link">
+             class="text-decoration-none text-reset">
             {{ include.title }}
           </a>
         </h2>

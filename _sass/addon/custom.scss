@@ -1,3 +1,15 @@
 .card-wrapper.card {
-    position: relative;
+  position: relative;
+}
+
+/*
+ * Chirpy loads Bootstrap's `.stretched-link` helper only in development.
+ * Keep the complete project card clickable with a local production-safe
+ * equivalent that is anchored to the card itself.
+ */
+.project-card-title a::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
 }
