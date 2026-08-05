@@ -12,3 +12,15 @@ The FloripaSat-2 mission consisted of FloripaSat-2A and FloripaSat-2B, two nanos
 One of the primary objectives of the mission was to demonstrate a simple inter-satellite communication experiment using LoRa technology. Each satellite carried a LoRa payload designed to periodically exchange telemetry packets while in orbit, evaluating the feasibility of low-power communication within a nanosatellite constellation. The payload aboard FloripaSat-2B operated in a duty-cycled mode, remaining in receive mode for 70 seconds while transmitting a telemetry packet halfway through the reception window. After the reception window, the payload entered a deep-sleep state for approximately 120 seconds before restarting the cycle. Meanwhile, the payload aboard FloripaSat-2A transmitted its own telemetry packet every 60 seconds, ensuring that at least one packet would be received during each reception window of FloripaSat-2B. Besides its own telemetry, FloripaSat-2A also forwarded the latest packet received from FloripaSat-2B to the satellite's On-Board Data Handling (OBDH) computer, where it was timestamped, stored in non-volatile memory, and later transmitted to the ground as part of the satellite beacon. This experiment was intended to validate a low-cost, low-power communication strategy for future distributed satellite missions and constellations.
 
 Both satellites were launched from the Alcântara Space Center (CLA) on 22 December 2025 as part of the Spaceward mission aboard INNOSPACE's HANBIT-Nano launch vehicle. The mission aimed to place the satellites into a low Earth orbit at an altitude of approximately 300 km. However, the launch vehicle suffered a critical anomaly shortly after liftoff, resulting in its destruction and the loss of all payloads, including FloripaSat-2A and FloripaSat-2B. Although the in-orbit experiment could not be performed, the mission represented an important milestone in the development of Brazilian CubeSat technologies. The complete satellite platform, communication payloads, and mission operations concept were successfully designed, integrated, and qualified, providing valuable engineering experience and technical heritage for subsequent SpaceLab missions.
+
+<div class="photo-tile-gallery">
+  <div class="photo-tile-grid">
+    {% assign floripasat2_photos = "1.jpg,2.jpg,3.jpg,4.jpg,5.jpg,6.jpg,7.jpg,8.jpg,9.jpg,10.jpg,11.jpg,14.jpg,12.jpg,13.jpg" | split: "," %}
+    {% assign floripasat2_portrait_photos = "14.jpg" | split: "," %}
+    {% for photo in floripasat2_photos %}
+    <div class="photo-tile{% if floripasat2_portrait_photos contains photo %} photo-tile--portrait{% endif %}">
+      <img src="{{ '/assets/img/projects/floripasat2/' | append: photo | relative_url }}" alt="FloripaSat-2 integration and launch campaign, photo {{ forloop.index }}" loading="lazy">
+    </div>
+    {% endfor %}
+  </div>
+</div>
