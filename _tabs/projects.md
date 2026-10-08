@@ -53,6 +53,13 @@ url="/projects/slcam/"
 %}
 
 {% include project-card.html
+title="ExpLoRa"
+description="An communication payload for nanossatellite missions with the objective of collecting remote data using LoRa."
+image="/assets/img/projects/explora-logo.png"
+url="/projects/explora/"
+%}
+
+{% include project-card.html
 title="SpaceLab's Ground Station"
 description="An open-source SDR-based ground station developed to support satellite tracking, telemetry, telecommand, and mission operations."
 image="/assets/img/projects/grs.png"

@@ -29,6 +29,23 @@
   color: var(--text-color);
 }
 
+.content .table-wrapper > table.contact-table {
+  width: 100%;
+  min-width: 100%;
+  table-layout: fixed;
+
+  th:first-child,
+  td:first-child {
+    width: 30%;
+  }
+
+  th,
+  td {
+    white-space: normal;
+    overflow-wrap: anywhere;
+  }
+}
+
 /* Apply consistent typography and image alignment to Markdown-rendered content. */
 .content p,
 .content li {

@@ -10,6 +10,15 @@ If you would like to discuss research collaborations, technical projects, academ
 
 ---
 
+## Personal Contact Information
+
+| | |
+|---|---|
+| <i class="fa-solid fa-envelope"></i> **Email** | <mailto:contact@gabrielmm.com> |
+{: .contact-table }
+
+---
+
 ## Professional Contact Information
 
 | | |
@@ -17,6 +26,7 @@ If you would like to discuss research collaborations, technical projects, academ
 | <i class="fa-solid fa-envelope"></i> **Email** | <mailto:gabriel.marcelino@sc.senai.br> |
 | <i class="fa-solid fa-building-columns"></i> **Institution** | SENAI Institute for Innovation in Embedded Systems (ISI-SE) |
 | <i class="fa-solid fa-location-dot"></i> **Location** | Florianópolis, Santa Catarina, Brazil |
+{: .contact-table }
 
 ---
 
@@ -27,6 +37,7 @@ If you would like to discuss research collaborations, technical projects, academ
 | <i class="fa-solid fa-envelope"></i> **Email** | <mailto:gabriel.marcelino@spacelab.ufsc.br> |
 | <i class="fa-solid fa-building-columns"></i> **Institution** | Federal University of Santa Catarina |
 | <i class="fa-solid fa-location-dot"></i> **Location** | Florianópolis, Santa Catarina, Brazil |
+{: .contact-table }
 
 ---
 
